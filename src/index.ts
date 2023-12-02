@@ -1,3 +1,14 @@
-export * from './add.js';
+import { CONFIG } from './config.js';
 
-export const VALUE = 'value';
+const { feature } = CONFIG;
+
+try {
+
+    await feature.action();
+
+} catch (error) {
+
+    console.error(error);
+}
+
+export const FEATURE = feature;
