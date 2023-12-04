@@ -49,7 +49,7 @@
     "package": "npm pack ./"
   },
   "devDependencies": {
-    "@alexwende/eslint-config": "^0.0.1",
+    "@alexwende/eslint-config": "^0.0.4",
     "commit-and-tag-version": "^12.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.55.0",
